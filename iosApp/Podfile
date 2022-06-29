@@ -1,0 +1,17 @@
+target 'Demo2' do
+  use_frameworks!
+  platform :ios, '15.0'
+  pod 'shared', :path => '../shared'
+end
+
+target 'WatchDemo2' do
+  use_frameworks!
+  platform :watchos, '8.0'
+  pod 'shared', :path => '../shared'
+end
+
+target 'WatchDemo2 WatchKit Extension' do
+  use_frameworks!
+  platform :watchos, '8.0'
+  pod 'shared', :path => '../shared'
+end
